@@ -1,0 +1,94 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)), url('Lio.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row{
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+body{
+  font-size: 20px;
+  overflow-x: hidden;
+  color: #fff;
+  font-family: 'Flamenco', cursive;
+}
+
+.main-nav{
+  float: right;
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-right: 80px;
+}
+.main-nav li{
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.main-nav li a{
+  padding: 5px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  font-weight: 100;
+}
+.main-nav li a:hover{
+  border-bottom: 2px solid #fff;
+
+}
+.yo{
+  width: 1180px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+h1{
+  color: #ff;
+  font-size: 240%;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+.btn{
+  color: #fff;
+  display: inline-block;
+  padding:  10px 30px;
+  font-weight: lighter;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s,color 0.2s;
+}
+
+.btn-full{
+  background-color: trasparent;
+  color: #fff;
+  margin-right: 15px;
+  border: 1px solid #fff;
+}
+.btn-full:hover{
+  background-color: #bf55ec;
+}
+
+.btn-nav{
+  background-color: trasparent;
+  color: #fff;
+  margin-right: 15px;
+  border: 1px solid #fff;
+}
+.btn-nav:hover{
+  background-color: #bf55ec;
+}
